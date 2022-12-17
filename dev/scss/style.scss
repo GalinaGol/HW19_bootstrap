@@ -1,5 +1,7 @@
-@import './normalize';
-@import './fonts';
-@import './base';
-@import './buttons';
-@import './header';
+header{
+    padding: 0 !important;
+}
+
+.dropdown-menu{
+    right: 0 !important;
+}
