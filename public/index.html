@@ -6,6 +6,7 @@
         <title>Bootstrap demo</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="container-fluid p-0">
@@ -27,45 +28,38 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">
+                                        <a class="nav-link dark-blue" aria-current="page" href="#">
                                             <i class="bi bi-house-fill"></i>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
+                                        <a class="nav-link dark-blue" href="#">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Course</a>
+                                        <a class="nav-link dark-blue" href="#">Course</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#">News</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                          Accommodation
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                      </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Sponsors</a>
+                                        <a class="nav-link blue" href="#">News</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                        <a class="nav-link dark-blue" href="#">Accommodation</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Pricing</a>
+                                        <a class="nav-link dark-blue" href="#">Sponsors</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link dark-blue" href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link dark-blue" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link dark-blue" href="#">
                                             <i class="bi bi-person-fill"></i>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link dark-blue" href="#">
                                             <i class="bi bi-search"></i>
                                         </a>
                                     </li>
@@ -77,7 +71,169 @@
             </header>
             <main>
                 <div class="container-fluid">
-                    
+                    <div class="title pt-2">
+                        <div class="container-fluid">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a class="dark-blue" href="#">Home</a></li>
+                                  <li class="breadcrumb-item"><a class="dark-blue" href="#">News</a></li>
+                                  <li class="breadcrumb-item"><a class="dark-blue" href="#">Category 1</a></li>
+                                  <li class="breadcrumb-item"><a class="blue" href="#">Article 1</a></li>
+                                </ol>
+                            </nav>
+                            <p class="h1 text-center text-primary blue">News</p>
+                        </div>
+                        <div class="container-fluid position-relative py-4">
+                            <hr>
+                            <div class="flower fs-3 px-3 bg-white position-absolute top-50 start-50 translate-middle">
+                                <i class="bi bi-flower1"></i>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <img src="images/banner.jpg" class="img-fluid w-100" alt="banner">
+                            <div class="container-fluidpx-0 py-3">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <time  class="article__date nw-sm" datatime="2018-09-22">22nd September 2018</time>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <p class="nw-sm">Posted in <a href="#" class="dark-blue">Category 1</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">  
+                                        <div class="container-fluid text-end p-0">
+                                            <a href="#" class="link-secondary">
+                                                <i class="bi bi-reply-fill"></i>
+                                            </a>
+                                            <a href="#" class="link-primary blue">Share</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid row">
+                            <div class="container-fluid col-md-8">
+                                <h3 class="dark-blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                                <blockquote class="blockquote">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </blockquote>
+                                <cite title="Firstname Lastname" class="dark-blue">Firstname Lastname</cite>
+                            </div>
+                            <div class="container-fluid col-md-4">
+                                <h2 class="dark-blue py-3 py-lg-0">Recent Posts</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                                    <li class="list-group-item px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                                    <li class="list-group-item px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                                    <li class="list-group-item px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                                    <li class="list-group-item px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <div class="container-fluid position-relative py-4">
+                            <hr>
+                            <div class="flower fs-3 px-3 bg-white position-absolute top-50 start-50 translate-middle">
+                                <i class="bi bi-flower1"></i>
+                            </div>
+                        </div>
+                        <div class="container-fluid text-center pb-5">
+                            <h2 class="blue py-3">Related News</h2>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 py-3">
+                                    <div class="card">
+                                        <img src="images/news1.jpg" class="card-img-top" alt="news1">
+                                        <div class="card-body text-start">
+                                            <div class="row py-2">
+                                                <div class="col-xl-6">
+                                                    <time  class="article__date blue" datatime="2018-06-05">5th June 2018  |</time>
+                                                </div>
+                                                <div class="col-xl-6 p-xl-0">
+                                                    <p class="my-md-0">Posted in <a href="#" class="dark-blue">Category 1</a></p>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title dark-blue">Lorem ipsum dolor sit amet.</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 py-3">
+                                    <div class="card">
+                                        <img src="images/news2.jpg" class="card-img-top" alt="news1">
+                                        <div class="card-body text-start">
+                                            <div class="row py-2">
+                                                <div class="col-xl-6">
+                                                    <time  class="article__date blue" datatime="2018-06-05">5th June 2018  |</time>
+                                                </div>
+                                                <div class="col-xl-6 p-xl-0">
+                                                    <p class="my-md-0">Posted in <a href="#" class="dark-blue">Category 1</a></p>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title dark-blue">Lorem ipsum dolor sit amet.</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 py-3">
+                                    <div class="card">
+                                        <img src="images/news3.jpg" class="card-img-top" alt="news1">
+                                        <div class="card-body text-start">
+                                            <div class="row py-2">
+                                                <div class="col-xl-6">
+                                                    <time  class="article__date blue" datatime="2018-06-05">5th June 2018  |</time>
+                                                </div>
+                                                <div class="col-xl-6 p-xl-0">
+                                                    <p class="my-md-0">Posted in <a href="#" class="dark-blue">Category 1</a></p>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title dark-blue">Lorem ipsum dolor sit amet.</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 py-3">
+                                    <div class="card">
+                                        <img src="images/news4.jpg" class="card-img-top" alt="news1">
+                                        <div class="card-body text-start">
+                                            <div class="row py-2">
+                                                <div class="col-xl-6">
+                                                    <time  class="article__date blue" datatime="2018-06-05">5th June 2018  |</time>
+                                                </div>
+                                                <div class="col-xl-6 p-xl-0">
+                                                    <p class="my-md-0">Posted in <a href="#" class="dark-blue">Category 1</a></p>
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title dark-blue">Lorem ipsum dolor sit amet.</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blue-section bg-dark">
+                            <div class="container-fluid px-0">
+                                <div class="row text-center py-3">
+                                    <div class="col-md-6 text-center align-items-sm-center">
+                                        <p class="fs-1 text-light"><em>Stay in touch with us.</em></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <form class="row g-3 py-3 mt-0 justify-content-center">
+                                            <div class="col-auto pe-0 mt-0">
+                                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                                <label for="floatingInput"></label>
+                                            </div>
+                                            <div class="col-auto ps-0 mt-0">
+                                              <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                                            </div>
+                                          </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
